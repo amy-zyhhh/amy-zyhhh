@@ -33,7 +33,7 @@ markup:
             - $
         enable: true
 params:
-  math: true
+  math: 
     engine: mathjax
 
 menu:
