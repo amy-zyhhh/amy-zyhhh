@@ -7,11 +7,11 @@ module:
     - path: github.com/imfing/hextra
 
 #markup:
-  ## allow raw html
-  #goldmark:
-  #  renderer:
-  #    unsafe: true
-markup:
+  # allow raw html
+  goldmark:
+    renderer:
+      unsafe: true
+#markup:
   goldmark:
     extensions:
       passthrough:
