@@ -30,9 +30,6 @@ markup:
           - - $
             - $
         enable: true
-params:
-  math: 
-    engine: mathjax
 
 menu:
   main:
@@ -64,6 +61,8 @@ params:
   navbar:
     displayTitle: true
     displayLogo: false
+  math: 
+    engine: mathjax
 
   footer:
     displayCopyright: false
